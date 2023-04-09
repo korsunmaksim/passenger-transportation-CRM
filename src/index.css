@@ -1,0 +1,83 @@
+body {
+  margin: 0px;
+  box-sizing: 0;
+  background-color: #151633;
+  color: white;
+}
+
+.title {
+  font-size: xx-large;
+}
+
+.users-title {
+  font-size: 50px;
+}
+
+.users-list {
+  font-size: x-large;
+}
+
+.trip-input {
+  font-size: xx-large;
+}
+
+.trips {
+  display: flex;
+}
+
+.trip {
+  width: 25%;
+  text-align: end;
+}
+
+@media (max-width: 568px) {
+  .title {
+    font-size: x-large;
+  }
+  .users-title {
+    font-size: 20px;
+  }
+
+  .users-list {
+    font-size: large;
+  }
+
+  .trip-input {
+    font-size: x-small;
+  }
+
+  .trips {
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .trip {
+    width: 100%;
+    text-align: start;
+  }
+}
+
+@media (max-width: 1024px) {
+  .users-tist {
+    font-size: medium;
+  }
+
+  .users-title {
+    font-size: 30px;
+  }
+
+  .trip-input {
+    font-size: x-large;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.default-transition {
+  transition: all 0.5s ease;
+}
